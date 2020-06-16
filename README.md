@@ -10,14 +10,18 @@
 
 ![Relatorio Fuscão Preto](/1.png "Foto do relatório sobre a trabalho do Fuscão Preto")
 
-# Landing Page A
+# [**Landing Page A - Clique aqui para acessar**](https://mrpmontes.github.io/GamaExperience33_FuscaoPreto-LP/index.html)
 
 ![Relatorio Fuscão Preto](/2.png "Foto do relatório sobre a trabalho do Fuscão Preto")
 
-# Landing Page B
+# # [**Landing Page B - Clique aqui para acessar**](https://mrpmontes.github.io/GamaExperience33_FuscaoPreto-LP/home.html)
 
 ![Relatorio Fuscão Preto](/3.png "Foto do relatório sobre a trabalho do Fuscão Preto")
 
-# Landing Page C
+# # [**Landing Page C - Clique aqui para acessar**](https://mrpmontes.github.io/GamaExperience33_FuscaoPreto-LP/homequiz.html)
 
 ![Relatorio Fuscão Preto](/4.png "Foto do relatório sobre a trabalho do Fuscão Preto")
+
+# # [**Thank-you Page - Clique aqui para acessar**](https://mrpmontes.github.io/GamaExperience33_FuscaoPreto-LP/thankyou.html)
+
+![Relatorio Fuscão Preto](/5.png "Foto do relatório sobre a trabalho do Fuscão Preto")
