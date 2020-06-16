@@ -1,0 +1,425 @@
+body, h1, h2, h3, p, ul, button,section  {
+	padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    font-family: Lato;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    text-decoration: inherit;
+}
+
+.sectionOne{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #595fbe;
+}
+.divHeader {
+    display: flex;
+    width: 100%;
+}
+
+.divImgHeader {
+    width: 35%;
+    background-image: url(../img/phone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* a imagem é um pouco menor em altura */
+    background-position: calc(50% - 50px) 50%; /* para ficar na mesma posição que está no zeplin */
+}
+
+.divLogo {
+    width: 75%;
+}
+.divLogo h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 599px;
+    margin: 0 auto;
+}
+
+img.logo {
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    padding: 53.8px 0 40.2px 0;
+    margin: 0 auto;
+}
+
+
+.divLogo p {
+    width: 640px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+    padding: 20px 0 88px 0;
+    margin: 0 auto;
+}
+.divLogo h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 3.69px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.divLogo button {
+    border-radius: 10px;
+    margin-top: 120px;
+    padding: 22px 47px;
+    background-color: #f47958;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.43;
+    letter-spacing: 3.24px;
+    color: #ffffff;
+    margin-bottom: 179px;
+}
+
+
+/*SECTION TWO*/
+
+.divSectionTwo {
+    display: flex;
+}
+img.icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+
+}
+section.sectionTwo {
+    padding: 102px;
+}
+.divSectionTwo h3 {
+    width: 219px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2.64px;
+    color: #6f6f6f;
+    margin: 0 auto;
+    padding: 41px 0 20px 0;
+    text-transform: uppercase;
+}
+.divSectionTwo {
+    text-align: center;
+}
+.divSectionTwo {
+    display: flex;
+    justify-content: center;
+}
+.divSectionTwo p {
+    width: 309px;
+    font-size: 24px;
+    color: #6f6f6f;
+    margin: 0 auto;
+    
+}
+
+.divIcon{
+    padding-right: 79px;
+}
+.divIcon:last-child {
+    padding-right: 0;
+}
+.socialIcons ul {
+    display: flex;
+}
+.buttonFerramentas {
+    border-radius: 10px;
+    background-color: #f47958;
+    padding: 22px 35.3px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.43;
+    letter-spacing: 3.24px;
+    color: #ffffff;
+    outline: none;
+}
+
+.divButtonFerramentas {
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+
+
+/*SECTION 3*/
+
+.divSectionThree {
+    display: flex;
+    text-align: center;
+}
+.divSectionThree p {
+    width: 426px;
+    font-size: 20px;
+    line-height: 1.55;
+    color: #6f6f6f;
+    margin: 0 auto;
+}
+.divSectionImg{
+    background-image: url(../img/computer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.divSectionThreeText {
+    align-self: center;
+    padding: 101px 0 71px 0;
+    background-color: #eaeaea;
+}
+.divSectionThreeText, .divSectionImg {
+    width: 50%;
+}
+
+.buttonQuero {
+    line-height: 1.43;
+    letter-spacing: 3.24px;
+    color: #ffffff;
+    background-color: #f47958;
+    margin-top: 56px;
+    padding: 26px 37px;
+    border-radius: 10px;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+/*SECTION 4 */
+.sectionFour {
+    display: flex;
+    justify-content: center;
+    background-color: #595fbe;
+}
+.divForm {
+    /* width: 25%; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.25);
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 0 41px;
+}
+
+.sectionFour {
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
+}
+.sectionFour .divForm h3 {
+    font-size: 30px;
+    line-height: 1.34;
+    color: #6f6f6f;
+    padding: 56px 0;
+    max-width: 354px;
+    margin: 0 auto;
+}
+
+#divEmail input, #divNome input {
+    -webkit-text-stroke: 0.01px #ffffff;
+    font-size: 18px;
+    color: #6f6f6f;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-control {
+    display: block;
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    padding: 22px 0 22px 16px;
+    width: calc(100% - 20px);
+}
+button.btn.btn-lg.btn-block.button-submit.mb-4 {
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 2.13px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #f47958;
+    padding: 16px 100px;
+    margin-bottom: 48px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+p.text-center.text-muted {
+    width: 411px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6f6f6f;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    margin-top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 106px 10% 68px 10%;
+    
+}
+
+.socialIcons img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+footer .texto_footer {
+    width: 669px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6f6f6f;
+}
+
+
+footer li {
+    list-style: none;
+    padding: 8px;
+}
+footer li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.socialIcons {
+    flex-direction: row;
+    display: flex;
+}
+
+
+@media all and (max-width: 1175px) { 
+    
+    .divSectionTwo {
+        flex-direction: column;
+    }
+    .divSectionTwo p {
+        padding-bottom: 9%;
+    }
+    .divIcon {
+        padding-right: 0;
+    }
+    .divButtonFerramentas {
+        padding-top: 0;
+    }
+
+}
+
+@media all and (max-width: 1055px) { 
+    footer {
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+        margin-top: -6%;
+    }
+
+    footer p {
+        max-width: none;
+    }
+    footer {
+        justify-content: center;
+    }
+    footer .texto_footer {
+        text-align: center;
+        padding-top: 25px;
+    }
+    .socialIcons {
+        order: 1;
+    }
+    .footerText{
+        order: 2;
+    }
+    .divLogo {
+        width: 100%;
+    }
+    .divImgHeader {
+        width: 100%;
+        height: 300px;
+        background-position: 50% 50%;
+    }
+    .divHeader, .divSectionThree {
+        flex-direction: column;
+    }
+    .divLogo button {
+        margin-bottom: 53.8px;
+    }
+    .divSectionThreeText, .divSectionImg {
+        width: 100%;
+    }
+    .divSectionImg {
+        height: 400px;
+    }
+    
+    
+}
+
+@media all and (max-width: 820px) { 
+
+    footer .texto_footer {
+        width: auto!important;
+        max-width: none!important;
+   }
+   footer .texto_footer {
+        text-align: center;
+    }
+
+ }
+@media all and (max-width: 634px) { 
+
+    .divLogo h1 {
+        font-size: 44px;
+    }
+    .divLogo p, .divSectionTwo p, .divLogo h1, .divSectionThree p , p.text-center.text-muted {
+        width: auto;
+    }
+    .divLogo p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .divLogo button, .buttonFerramentas, .buttonQuero {
+        padding: 22px 21px;
+    }
+    section.sectionTwo, .divSectionThree p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .divForm {
+        width: 82%;
+        padding: 0 18px;
+    }
+    footer {
+        margin-top: -14%;
+    }
+
+}

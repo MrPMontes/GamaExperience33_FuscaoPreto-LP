@@ -1,0 +1,174 @@
+body, h1, h2, h3, p, ul, button  {
+	padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    font-family: Lato;
+}
+
+body {
+    background-color: #595fbe;
+    background-image: url(../img/thankyoupage.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+}
+
+.logo {
+    width: 107px;
+    height: 145.4px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 183px 174px 232px 174px;
+
+}
+
+.empetyDiv{
+    flex-grow: 2;
+    width: 179px;
+}
+.textDiv{
+    flex-grow: 1;
+    width: 179px;
+}
+
+.texto_obrigado {
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.botao_ebook {
+    border-radius: 6px;
+    background-color: #f47958;
+    border: none;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 2.13px;
+    color: #ffffff;
+    padding: 16px 34px;
+    cursor: pointer;
+    outline: none;
+}
+
+.texto_agradecimento {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ffffff;
+  padding-bottom: 33px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 30px 10%;
+}
+
+.socialIcons img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    padding-top: 15px;
+}
+.socialIcons ul {
+    display: flex;
+}
+footer .texto_footer {
+    width: 669px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6f6f6f;
+
+}
+
+
+footer li {
+    list-style: none;
+    padding: 8px;
+}
+footer li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.socialIcons {
+    flex-direction: row;
+    display: flex;
+}
+@media all and (max-width: 1307px) { 
+    .empetyDiv {
+        flex-grow: 1;
+    }
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media all and (max-width: 1175px) { 
+
+    .empetyDiv{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 1055px) { 
+    footer {
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    footer p {
+        max-width: none;
+    }
+    footer {
+        justify-content: center;
+    }
+    footer .texto_footer {
+        text-align: center;
+    }
+    .socialIcons {
+        order: 1;
+    }
+    .footerText{
+        order: 2;
+    }
+    
+
+}
+
+@media all and (max-width: 820px) { 
+
+    footer .texto_footer {
+        width: auto!important;
+        max-width: none!important;
+   }
+   footer .texto_footer {
+        text-align: center;
+    }
+
+ }
+@media all and (max-width: 634px) { 
+
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .texto_agradecimento {
+        font-size: 16px;
+    }
+    .texto_obrigado {
+        font-size: 2em;
+    }
+} 

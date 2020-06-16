@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Reset */
+body, h1, h2, h3, p, ul, button {
+	padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #595fbf;
+  color: #252525;
+  background-image: url(../img/home_background.jpg);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+
+  width: 107px;
+  height: 145.4px;
+}
+
+.logo-box {
+  width: 100px;
+}
+
+/* MAIN */
+
+.left-panel {
+  color: white;
+
+  margin-right: 35px;
+  padding: 0;
+}
+
+.titulo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.texto {
+  max-width: 540px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.card {
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  margin-left: 20px;
+  background-color: #eaeaea;
+}
+
+.card h3 {
+  font-size: 30px;
+  color: #6f6f6f;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6f6f6f;
+}
+
+.button-submit {
+  font-weight: bold;
+  color: white;
+  background-color: #f27a58;
+}
+
+#divEmail input, #divNome input {
+  -webkit-text-stroke: 0.01px #ffffff;
+  font-size: 18px;
+  color: #6f6f6f;
+}
+
+.btn {
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: 2.13px;
+  color: #ffffff;
+}
+
+.form-control-lg {
+  width: 100%;
+}
+
+.footer {
+  color: #757575;
+  background-color: white;
+  padding: 30px 10%;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6f6f6f;
+  width: 669px;
+}
+
+.redes.col-md-5.col-xs-12 {
+  text-align: right;
+}
+.redes ul li {
+  padding: 8px;
+}
+
+.redes img {
+  width: 48px;
+  height: 48px;
+}
+
+@media all and (max-width: 1055px) {
+
+  .footer p {
+    width: auto;
+  }
+  
+}
+
+@media all and (max-width: 1029px) {
+  .col-md-7.col-xs-12.divFooter {
+    text-align: center;
+    margin: 0 auto;
+    order: 2;
+  } 
+  footer .row {
+    flex-direction: column;
+  }
+  .redes.col-md-5.col-xs-12 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .redes.col-md-7.col-xs-12 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer p {
+    padding-top: 25px;
+  }
+}
+
+
+@media all and (max-width: 634px) { 
+  .h1, h1 {
+      font-size: 2rem;
+  }
+  section.row {
+    padding: 0 20px;
+  }
+  .list-inline {
+      text-align: center;
+  }
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  footer .row {
+    padding: 0 20px;
+}
+
+  .card {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+  }
+  .col-md {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .divFooter {
+    padding: 30px 0 30px 0;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

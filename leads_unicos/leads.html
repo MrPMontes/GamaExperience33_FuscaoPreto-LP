@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Leads</title>
+        <link rel="stylesheet" href="./css/leads.css">
+        <script src="./js/Chart.min.js"></script>
+        <script src="./js/vue.min.js"></script>
+    </head>
+    <body>
+        
+        <header> 
+            <img class="logo" src="./img/logo.jpg" alt="logo">
+        </header>
+
+        <section class="container">
+            <div id="app">
+                <!-- Loading -->
+                <div class="loader" :class="{hide: !loading}"></div>
+
+                <div :class="{hide: loading}">
+                    <!-- Gráfico de Barras -->
+                    <div class="chart-container">
+                        <canvas id="graphBarras" width="400" height="300"></canvas>
+                    </div>
+
+                    <!-- Gráfico de Pizza -->
+                    <div class="chart-container">
+                        <canvas id="graphPizza" width="600" height="300"></canvas>
+                    </div>
+
+                    <!-- disclaimer -->
+                    <div class="disclaimer one-edge-shadow">
+                        <p>Dados brutos, podem conter emails duplicados, inválidos, dentre outras coisas.</p>
+                        <p>A contagem final pode ser ligeiramente diferente dependendo dos critérios adotatos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src='./js/leads-vue.js'></script>
+    </body>
+</html>

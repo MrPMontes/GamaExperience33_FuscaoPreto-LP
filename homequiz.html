@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })
+            (window,document,'script','dataLayer','GTM-NMDZZ6T');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Line - Connecting Everything</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/homequiz.css" />
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMDZZ6T" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="header mb-5">
+      <div class="mx-auto pt-5 logo-box">
+        <img class="logo" src="img/logo.svg" alt="logo">
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="row">
+        <div class="col-md left-panel mt-5">
+          <h1 class="mb-4">Que tipo de pessoa é você na quarentena? Descubra agora!</h1>
+
+          <p class="mb-3">
+            Quem é você na quarentena? Do tipo divertido, louco, comilão, fitness, conectado?
+          </p>
+          <p class="mb-3">
+            A quarentena mudou nossos hábitos e nossa rotina. Faça o nosso teste e descubra! Aproveite e desafie seus amigos!
+          </p>
+        </div>
+
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+
+              <h3 class="card-title text-center mb-4">Acesse, Jogue e Descubra seu perfil!</h3>
+
+              <form
+                method="POST"
+                action="https://smtl.gama.academy/leads/db22b662-915e-11ea-9e98-2f3c29e0891c"
+              >
+                <div id="divNome" class="form-group">
+                  <input
+                    name="name"
+                    type="text"
+                    placeholder="Nome"
+                    pattern="^\D{2,}\s[\D\s]{2,}$"
+                    title="Digite seu nome completo"
+                    class="form-control form-control-lg"
+                    required
+                  />
+                </div>
+
+                <div id="divEmail" class="form-group">
+                  <input
+                    name="email"
+                    type="email"
+                    placeholder="Email"
+                    title="Digite um email válido"
+                    class="form-control form-control-lg"
+                    required
+                  />
+                </div>
+
+                <input
+                  name="redirectTo"
+                  type="hidden"
+                  value="https://www.tryinteract.com/share/quiz/5ebcfb8a015d3200143954c7"
+                />
+
+                <!-- input name="debugMode" type="hidden" value="true"/> -->
+
+                <button type="submit" class="btn btn-lg btn-block button-submit mb-4">FAZER O TESTE</button>
+
+                <p class="text-center text-muted">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</p>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container-full mt-5">
+      <div>
+        <div class="row">
+          <div class="col-md-7 col-xs-12 divFooter">
+            <p>Siga nossas redes sociais para continuar acompanhando conteúdos sobre produtividade, organização, e outros temas relevantes para tornar o seu dia-a-dia mais prático!</p>
+          </div>
+
+          <div class="redes col-md-5  col-xs-12">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/oneline.life/" target="_blank">
+                  <img src="./img/instagram.svg" alt="">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/oneline.life/" target="_blank">
+                  <img src="./img/facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="list-inline-item" data-href="https://www.facebook.com/oneline.life/" data-layout="button" data-size="small">
+                <a target="_blank" rel="noopener" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Foneline.life%2F&src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                  <img src='img/share.svg' alt="icon share" />
+              </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
